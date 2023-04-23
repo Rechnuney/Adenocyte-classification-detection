@@ -24,3 +24,4 @@
 - resnet_2type: ResNet二分类
 - resnet_5type: ResNet五分类
 - data_process: 数据处理
+- dataset_split: 分割数据集
