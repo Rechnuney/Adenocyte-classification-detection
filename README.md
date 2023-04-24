@@ -10,6 +10,9 @@
 3. 正常细胞的WSI，无标注，保存在/remote-home/share/DATA/RedHouse/AdenocyteBag/SVSfile0413
 
 ### 数据集
+0. 二分类数据集，基于第1批原始数据构建，保存在~/AdenocyteBag/abmil_0118data_512_128
+
+   包含1912个正包和12984个负包
 1. 二分类数据集，基于第1批原始数据构建，保存在~/AdenocyteBag/abmil_0118data_768_448
    
    包含5798个正包和10783个负包
@@ -38,6 +41,12 @@
 |lr|epochs|Acc|Precision|Recall|F1-score|
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | 1e-5 | 10 | 0.972 | 0.977 | 0.966 | 0.971 |
+
+## ResNet
+### 第0个数据集
+|lr|epochs|Acc|Precision|Recall|F1-score|
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| 5e-4 | 26 | 0.9049 | 0.64 | 0.58 | 0.61 |
 
 ## Faster R-CNN
 代码下载在/remote-home/share/mmdetection-main
