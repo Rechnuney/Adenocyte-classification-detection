@@ -41,4 +41,5 @@
 
 ## Faster R-CNN
 代码下载在/remote-home/share/mmdetection-main
+
 Segment Anything推理完成，需要进一步将输出结果转换为coco数据集格式
