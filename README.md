@@ -25,3 +25,20 @@
 - resnet_5type: ResNet五分类
 - data_process: 数据处理
 - dataset_split: 分割数据集
+
+## ABMIL
+### 第1个数据集（加正常细胞前）
+|lr|epochs|Acc|Precision|Recall|F1-score|
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| 1e-6 | 27 | 0.7749 | 0.651 | 0.656 | 0.653 |
+
+
+### 第2个数据集（加正常细胞后）
+
+|lr|epochs|Acc|Precision|Recall|F1-score|
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| 1e-5 | 10 | 0.972 | 0.977 | 0.966 | 0.971 |
+
+## Faster R-CNN
+代码下载在/remote-home/share/mmdetection-main
+Segment Anything推理完成，需要进一步将输出结果转换为coco数据集格式
