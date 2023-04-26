@@ -53,8 +53,11 @@
 |lr|epochs|Acc|Precision|Recall|F1-score|
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | 1e-5 | 20 | 0.9995 | 0.9990 | 1 | 0.9995 |
+
 混淆矩阵
+
 970 1
+
 0 971
 ## Faster R-CNN
 代码下载在/remote-home/share/mmdetection-main
